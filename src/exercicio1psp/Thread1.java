@@ -8,12 +8,7 @@ import java.util.logging.Logger;
  * @author ylagorebollar
  */
 public class Thread1 extends Thread{
-    //Programa en Java que cree dos hilos y los ejecuta. 
-    //Los hilos escriben diez veces un número de iteración 
-    //del bucle y su nombre. En cada iteración, 
-    //después de escribir su nombre, se bloquean durante un 
-    //tiempo aleatorio de segundos y después vuelven a estar 
-    //disponibles para su ejecución.
+   
     public Thread1(String name) {
         super(name);
     }
